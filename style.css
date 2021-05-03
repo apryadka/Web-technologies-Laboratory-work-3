@@ -1,0 +1,78 @@
+body {
+  background: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.A {
+  font-size: 10px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chess-desk {
+  width: 670px;
+  height: 670px;
+  border: 5px solid rgba(14, 4, 4, 0.575);
+  border-radius: 7px;
+}
+
+.additional-desk {
+  display: flex;
+}
+
+.chess-row-0 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.letter0 {
+  color: white;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 610px;
+}
+
+.letters {
+  height: 610px;
+}
+
+.letter {
+  color: white;
+  font-size: 25px;
+  height: 75px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.chess-row {
+  display: flex;
+}
+
+.frame-black {
+  background-color: rgb(188, 160, 240);
+  width: 74px;
+  height: 74px;
+  border: 1px solid black;
+}
+
+.frame-white {
+  background-color: white;
+  width: 74px;
+  height: 74px;
+  border: 1px solid black;
+}
+
+.figure {
+  height: 74px;
+  padding-left: 10px;
+}
